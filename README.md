@@ -56,7 +56,7 @@ DEVICES = [
 ]
 ```
 
-![Illustration of editing the DEVICES list](assets/01-edit-device-list.svg)
+![Illustration of editing the DEVICES list](editing_the_device_list.svg)
 
 MAC addresses may contain colons, hyphens, dots, or no separators. Duplicate mappings to the same hostname are collapsed; conflicting hostnames for the same MAC stop the script before any changes are made.
 
@@ -119,7 +119,7 @@ After confirming that the mappings are correct:
 python3 rename_meraki_clients.py --apply
 ```
 
-![Illustration of dry-run and apply commands](assets/03-run-script.svg)
+![Illustration of dry-run and apply commands](running_the_script.svg)
 
 ## SSL inspection and `--insecure`
 
